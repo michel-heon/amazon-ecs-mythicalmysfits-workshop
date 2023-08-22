@@ -692,7 +692,7 @@ Resources:
       DBName: postgres
       DBSubnetGroupName: !Ref DBSubnetGroup
       Engine: postgres
-      EngineVersion: 9.6.8
+      EngineVersion: 11.16
       MasterUserPassword: !Ref ClairDBPassword
       MasterUsername: postgres
       MultiAZ: false
